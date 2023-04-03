@@ -26,9 +26,9 @@
             $data_nasc = $_POST["data_nasc"];
 
             $sql = "UPDATE usuarios SET
-                        nome = '{$nome}'
-                        email = '{$email}'
-                        senha = '{$senha}'
+                        nome = '{$nome}',
+                        email = '{$email}',
+                        senha = '{$senha}',
                         data_nasc = '{$data_nasc}'
                     WHERE
                      id =".$_REQUEST["id"];
